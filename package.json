@@ -1,6 +1,9 @@
 {
   "name": "ilkemerol-com",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.1"
+  },
   "description": "ilkemeroldotcom",
   "main": "index.js",
   "scripts": {
