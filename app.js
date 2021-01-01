@@ -1,9 +1,13 @@
 const express = require("express");
+const favicon = require("serve-favicon");
+const path = require("path");
 const app = express();
 
 const siteRoute = require("./routes/site.route");
 
-app.use(express.static(__dirname));
+app.use("/styles", express.static(path.join(__dirname, "styles")));
+app.use("/static", express.static(path.join(__dirname, "static")));
+app.use(favicon(__dirname + "/styles/image/fav.ico"));
 
 app.use("/", siteRoute);
 app.use(redirectUnmatchedURL);
