@@ -1,10 +1,17 @@
 @font-face {
-    font-family: 'entypo';
-    font-style: normal;
-    font-weight: normal;
-    src: url('https://weloveiconfonts.com/api/fonts/entypo/entypo.eot');
-    src: url('https://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix') format('eot'), url('https://weloveiconfonts.com/api/fonts/entypo/entypo.woff') format('woff'), url('https://weloveiconfonts.com/api/fonts/entypo/entypo.ttf') format('truetype'), url('https://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo') format('svg');
-  }
+  font-family: "entypo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://weloveiconfonts.com/api/fonts/entypo/entypo.eot");
+  src: url("https://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix")
+      format("eot"),
+    url("https://weloveiconfonts.com/api/fonts/entypo/entypo.woff")
+      format("woff"),
+    url("https://weloveiconfonts.com/api/fonts/entypo/entypo.ttf")
+      format("truetype"),
+    url("https://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo")
+      format("svg");
+}
 .entypo-note:before {
   content: "\266a";
 }
@@ -859,65 +866,68 @@
 }
 
 .social {
-    outline: 0 none !important;
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    padding: 0px;
-    margin: 22px;
-    color: #FFF;
-    border: 0 none;
-    background-color: 	#696969;
-    -webkit-border-radius: 30%;
-    -moz-border-radius: 30%;
-    border-radius: 30%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
+  outline: 0 none !important;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  padding: 0px;
+  margin: 22px;
+  color: #fff;
+  border: 0 none;
+  background-color: #696969;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  border-radius: 30%;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .social:before {
-    color: #FFF;
-    font-family: 'entypo', sans-serif;
-    font-size: 35px;
-    line-height: 70px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 70px;
-    height: 70px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  color: #fff;
+  font-family: "entypo", sans-serif;
+  font-size: 35px;
+  line-height: 70px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .twitter:before {
-    content: "\f309";
+  content: "\f309";
 }
 
 .twitter:hover {
   background-color: #00acee;
-  -webkit-box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee, 0 0 5px 2px #003d55;
-  -moz-box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee, 0 0 5px 2px #003d55;
-  box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee, 0 0 5px 2px #003d55;
+  -webkit-box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee,
+    0 0 5px 2px #003d55;
+  -moz-box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee,
+    0 0 5px 2px #003d55;
+  box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee,
+    0 0 5px 2px #003d55;
 }
 .twitter:hover:before {
   text-shadow: -1px -1px #0087bb;
-  -webkit-transform: scale(1.0);
-  -moz-transform: scale(1.0);
-  -ms-transform: scale(1.0);
-  -o-transform: scale(1.0);
-  transform: scale(1.0);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .twitter:active,
 .twitter:checked {
@@ -952,19 +962,22 @@
 .facebook:before {
   content: "\f30c";
 }
-.facebook:hover{
+.facebook:hover {
   background-color: #3b5998;
-  -webkit-box-shadow: 0 0 0 10px rgba(76, 112, 186, 0.5), inset 0 0 0 0 #3b5998, 0 0 5px 2px #10182a;
-  -moz-box-shadow: 0 0 0 10px rgba(76, 112, 186, 0.5), inset 0 0 0 0 #3b5998, 0 0 5px 2px #10182a;
-  box-shadow: 0 0 0 10px rgba(76, 112, 186, 0.5), inset 0 0 0 0 #3b5998, 0 0 5px 2px #10182a;
+  -webkit-box-shadow: 0 0 0 10px rgba(76, 112, 186, 0.5), inset 0 0 0 0 #3b5998,
+    0 0 5px 2px #10182a;
+  -moz-box-shadow: 0 0 0 10px rgba(76, 112, 186, 0.5), inset 0 0 0 0 #3b5998,
+    0 0 5px 2px #10182a;
+  box-shadow: 0 0 0 10px rgba(76, 112, 186, 0.5), inset 0 0 0 0 #3b5998,
+    0 0 5px 2px #10182a;
 }
 .facebook:hover:before {
   text-shadow: -1px -1px #2d4373;
-  -webkit-transform: scale(1.0);
-  -moz-transform: scale(1.0);
-  -ms-transform: scale(1.0);
-  -o-transform: scale(1.0);
-  transform: scale(1.0);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .facebook:active,
 .facebook:checked {
@@ -1001,17 +1014,20 @@
 }
 .instagram:hover {
   background-color: #3f729b;
-  -webkit-box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b, 0 0 5px 2px #13222e;
-  -moz-box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b, 0 0 5px 2px #13222e;
-  box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b, 0 0 5px 2px #13222e;
+  -webkit-box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b,
+    0 0 5px 2px #13222e;
+  -moz-box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b,
+    0 0 5px 2px #13222e;
+  box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b,
+    0 0 5px 2px #13222e;
 }
 .instagram:hover:before {
   text-shadow: -1px -1px #305777;
-  -webkit-transform: scale(1.0);
-  -moz-transform: scale(1.0);
-  -ms-transform: scale(1.0);
-  -o-transform: scale(1.0);
-  transform: scale(1.0);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .instagram:active,
 .instagram:checked {
@@ -1048,17 +1064,20 @@
 }
 .linkedin:hover {
   background-color: #0e76a8;
-  -webkit-box-shadow: 0 0 0 10px rgba(18, 151, 215, 0.5), inset 0 0 0 0 #0e76a8, 0 0 5px 2px #02131b;
-  -moz-box-shadow: 0 0 0 10px rgba(18, 151, 215, 0.5), inset 0 0 0 0 #0e76a8, 0 0 5px 2px #02131b;
-  box-shadow: 0 0 0 10px rgba(18, 151, 215, 0.5), inset 0 0 0 0 #0e76a8, 0 0 5px 2px #02131b;
+  -webkit-box-shadow: 0 0 0 10px rgba(18, 151, 215, 0.5), inset 0 0 0 0 #0e76a8,
+    0 0 5px 2px #02131b;
+  -moz-box-shadow: 0 0 0 10px rgba(18, 151, 215, 0.5), inset 0 0 0 0 #0e76a8,
+    0 0 5px 2px #02131b;
+  box-shadow: 0 0 0 10px rgba(18, 151, 215, 0.5), inset 0 0 0 0 #0e76a8,
+    0 0 5px 2px #02131b;
 }
 .linkedin:hover:before {
   text-shadow: -1px -1px #0a5579;
-  -webkit-transform: scale(1.0);
-  -moz-transform: scale(1.0);
-  -ms-transform: scale(1.0);
-  -o-transform: scale(1.0);
-  transform: scale(1.0);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .linkedin:active,
 .linkedin:checked {
@@ -1091,95 +1110,201 @@
 }
 
 .youtube:before {
-    content: "\25B6";
-  }
-  .youtube:hover {
-    background-color: #ff0000;
-    -webkit-box-shadow: 0 0 0 10px rgba(154, 3, 3, 0.5), inset 0 0 0 0 #ff0000, 0 0 5px 2px #02131b;
-    -moz-box-shadow: 0 0 0 10px rgba(154, 3, 3, 0.5), inset 0 0 0 0 #ff0000, 0 0 5px 2px #02131b;
-    box-shadow: 0 0 0 10px rgba(154, 3, 3, 0.5), inset 0 0 0 0 #ff0000, 0 0 5px 2px #02131b;
-  }
-  .youtube:hover:before {
-    text-shadow: -1px -1px #9a0303;
-    -webkit-transform: scale(1.0);
-    -moz-transform: scale(1.0);
-    -ms-transform: scale(1.0);
-    -o-transform: scale(1.0);
-    transform: scale(1.0);
-  }
-  .youtube:active,
-  .youtube:checked {
-    background-color: #9a0303;
-    -webkit-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5);
-    -moz-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5);
-    box-shadow: 0 0 0 8.33333333px rgba(79, 5, 5, 0.5);
-    -webkit-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5), inset 0 0 0 0 #9a0303;
-    -moz-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5), inset 0 0 0 0 #9a0303;
-    box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5), inset 0 0 10px #02131b;
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    transition: all 0.1s ease;
-  }
-  .youtube:active:before,
-  .youtube:checked:before {
-    color: rgba(255, 255, 255, 0.8);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    transition: all 0.1s ease;
-  }
+  content: "\25B6";
+}
+.youtube:hover {
+  background-color: #ff0000;
+  -webkit-box-shadow: 0 0 0 10px rgba(154, 3, 3, 0.5), inset 0 0 0 0 #ff0000,
+    0 0 5px 2px #02131b;
+  -moz-box-shadow: 0 0 0 10px rgba(154, 3, 3, 0.5), inset 0 0 0 0 #ff0000,
+    0 0 5px 2px #02131b;
+  box-shadow: 0 0 0 10px rgba(154, 3, 3, 0.5), inset 0 0 0 0 #ff0000,
+    0 0 5px 2px #02131b;
+}
+.youtube:hover:before {
+  text-shadow: -1px -1px #9a0303;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.youtube:active,
+.youtube:checked {
+  background-color: #9a0303;
+  -webkit-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5);
+  box-shadow: 0 0 0 8.33333333px rgba(79, 5, 5, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5), inset 0 0 0 0 #9a0303;
+  -moz-box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5), inset 0 0 0 0 #9a0303;
+  box-shadow: 0 0 0 10px rgba(79, 5, 5, 0.5), inset 0 0 10px #02131b;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.youtube:active:before,
+.youtube:checked:before {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
 
-  .github:before {
-    content: "\F300";
-  }
-  .github:hover {
-    background-color: #343434;
-    -webkit-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434, 0 0 5px 2px #02131b;
-    -moz-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434, 0 0 5px 2px #02131b;
-    box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434, 0 0 5px 2px #02131b;
-  }
-  .github:hover:before {
-    text-shadow: -1px -1px #2a2a2a;
-    -webkit-transform: scale(1.0);
-    -moz-transform: scale(1.0);
-    -ms-transform: scale(1.0);
-    -o-transform: scale(1.0);
-    transform: scale(1.0);
-  }
-  .github:active,
-  .github:checked {
-    background-color: #2a2a2a;
-    -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
-    -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
-    box-shadow: 0 0 0 8.33333333px rgba(31, 31, 31, 0.5);
-    -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
-    -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
-    box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 10px #02131b;
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    transition: all 0.1s ease;
-  }
-  .github:active:before,
-  .github:checked:before {
-    color: rgba(255, 255, 255, 0.8);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    transition: all 0.1s ease;
-  }
+.github:before {
+  content: "\F300";
+}
+.github:hover {
+  background-color: #343434;
+  -webkit-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434,
+    0 0 5px 2px #02131b;
+  -moz-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434,
+    0 0 5px 2px #02131b;
+  box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434,
+    0 0 5px 2px #02131b;
+}
+.github:hover:before {
+  text-shadow: -1px -1px #2a2a2a;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.github:active,
+.github:checked {
+  background-color: #2a2a2a;
+  -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
+  box-shadow: 0 0 0 8.33333333px rgba(31, 31, 31, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
+  -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
+  box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 10px #02131b;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.github:active:before,
+.github:checked:before {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.codepen:before {
+  content: "\e794";
+}
+.codepen:hover {
+  background-color: #343434;
+  -webkit-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434,
+    0 0 5px 2px #02131b;
+  -moz-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434,
+    0 0 5px 2px #02131b;
+  box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #343434,
+    0 0 5px 2px #02131b;
+}
+.codepen:hover:before {
+  text-shadow: -1px -1px #2a2a2a;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.codepen:active,
+.codepen:checked {
+  background-color: #2a2a2a;
+  -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
+  box-shadow: 0 0 0 8.33333333px rgba(31, 31, 31, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
+  -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
+  box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 10px #02131b;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.codepen:active:before,
+.codepen:checked:before {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.mail:before {
+  content: "\2709";
+}
+.mail:hover {
+  background-color: #fd7e14;
+  -webkit-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #fd7e14,
+    0 0 5px 2px #833e05;
+  -moz-box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #fd7e14,
+    0 0 5px 2px #833e05;
+  box-shadow: 0 0 0 10px rgba(32, 34, 36, 0.5), inset 0 0 0 0 #fd7e14,
+    0 0 5px 2px #833e05;
+}
+.mail:hover:before {
+  text-shadow: -1px -1px #2a2a2a;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.mail:active,
+.mail:checked {
+  background-color: #833e05;
+  -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5);
+  box-shadow: 0 0 0 8.33333333px rgba(31, 31, 31, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
+  -moz-box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 0 0 #9a0303;
+  box-shadow: 0 0 0 10px rgba(31, 31, 31, 0.5), inset 0 0 10px #02131b;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.mail:active:before,
+.mail:checked:before {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
