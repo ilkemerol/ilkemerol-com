@@ -1,10 +1,16 @@
 const express = require("express");
+const helmet = require("helmet");
 const favicon = require("serve-favicon");
 const path = require("path");
 const app = express();
 
 const siteRoute = require("./routes/site.route");
 
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+  })
+);
 app.use("/styles", express.static(path.join(__dirname, "styles")));
 app.use("/static", express.static(path.join(__dirname, "static")));
 app.use(favicon(__dirname + "/styles/image/fav.ico"));
